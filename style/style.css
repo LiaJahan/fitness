@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* shared class */
+
+body{
+    background-color: black;
+    margin: 0px 198px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.text-white{
+    color: white;
+}
+
+.opacity{
+    opacity: 50%;
+}
+.btn-primary{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    color: white;
+    padding: 16px 40px;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 46px;
+}
+
+/* navbar */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+color: rgb(230, 83, 60);
+font-size: 36px;
+font-weight: 800;
+line-height: 120%;
+text-align: left;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.nav-button{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 46px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-container{display: flex;
+    justify-content: center; /* Centers nav-items horizontally */
+    align-items: center; /* Centers nav-items vertically */
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    width: 360px;
+    height: 50px;
+    gap: 20px;
+}
+
+/* banner */
+
+.banner-header{    
+font-size: 78px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.banner-paragraph{
+    max-width: 70%;
+    margin-bottom: 40px;
+}
+
+.banner-button{
+    border-radius: 46px;
+    background: none;
+    color: white;
+    padding: 16px 40px;
+    font-size: 1.25rem;
+    border: solid white;
+    border-radius: 46px;
+}
+
+
+/* Habits */
+
+.h-header1{
+    font-size: 30px;
+font-weight: 900;
+}
+.habit{
+    text-align: center;
+}
+.round-image {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;     
+    margin: 10px; 
+}
+
+.h-header{
+    font-size: 16px;
+}
+
+.habit-paragraph{
+    font-size: 12px;
+}
