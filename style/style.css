@@ -137,3 +137,58 @@ font-weight: 900;
 .habit-paragraph{
     font-size: 12px;
 }
+
+/* meet team */
+
+.photo-collage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.photo-item {
+    position: relative;
+    width: calc(33.33% - 10px);
+}
+
+.photo-item img {
+    width: 345px;
+    height: 285px;
+    border-radius: 5px;
+}
+.photo-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 14px;
+    background: none;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.box {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+    width: 1060px;
+    height: 604px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20;
+    margin-top: 58px;
+}
+
+.team-intro{
+    text-align: center;
+    margin: auto 58px;
+
+}
+
+.photo-paragraph{
+    font-size: 12px;
+
+}
