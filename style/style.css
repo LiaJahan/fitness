@@ -354,3 +354,13 @@ text-decoration-line: underline;
 .footer-ender{
     text-align: center;
 }
+
+/* resposive media query */
+
+
+@media screen and (max-width: 579px) {
+    .navbar{
+        
+    }
+    
+}
